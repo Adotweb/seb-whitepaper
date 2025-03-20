@@ -1,0 +1,81 @@
+\documentclass[14pt]{article}
+\usepackage[a4paper, margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\usepackage{hyperref}
+
+% Customizing section headers
+\titleformat{\section}{\large\bfseries}{\thesection.}{0.5em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection.}{0.5em}{}
+
+% Header and footer
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{Kantonsschule Solothurn}
+\rhead{Den Safe Exam Browser umgehen}
+\cfoot{\thepage}
+
+% Line spacing
+\onehalfspacing
+
+\begin{document}
+
+% Cover Page
+\begin{titlepage}
+    \centering
+    \vspace*{5cm}
+    {\huge\bfseries Den Safe Exm Browser umgehen\par}
+    \vspace{1.5cm}
+    \vspace{2cm}
+    {\large Alim Weber\par}
+    \vfill
+    {\large \today\par}
+\end{titlepage}
+
+% Executive Summary
+\newpage
+\section*{Zusammefassung}
+\addcontentsline{toc}{section}{Management Summary}
+Briefly summarize the purpose of the white paper, key findings, and recommended actions.
+
+% Table of Contents
+\newpage
+\tableofcontents
+
+% Introduction
+\newpage
+\section{Einführung}
+Der Safe Exam Browser (SEB) ist eine von der ETH Zürich entwickelte Lockdown-Software, die während Prüfungen den Zugriff auf unerlaubte Ressourcen und Anwendungen auf dem Prüfungsgerät unterbindet. Ziel ist es, durch die Einschränkung von Funktionen wie dem Zugriff auf das Internet (z. B. Google, ChatGPT oder ähnliche Hilfsmittel) Betrugsversuche während digitaler Prüfungen deutlich zu erschweren. Seit der Einführung des SEB gab es zahlreiche Versuche, die Integrität dieser Sicherheitslösung zu unterlaufen. In der Regel konnten diese Schwachstellen durch zeitnahe Software-Updates behoben werden. Dieses Whitepaper beschreibt jedoch einen alternativen Angriffsvektor, der sich weder durch ein einfaches Update noch durch den Wechsel zu einer anderen Lockdown-Software vollständig eliminieren lässt.
+
+% Problem Statement or Background
+\section{Problemstellung}
+Trotz der weitreichenden Sicherheitsmaßnahmen von Lockdown-Browsern wie dem Safe Exam Browser (SEB) besteht weiterhin das Risiko, dass Prüflinge alternative Wege finden, um Prüfungsregeln zu umgehen und unerlaubte Hilfsmittel zu verwenden. Während bekannte Angriffsvektoren oftmals durch regelmäßige Software-Updates adressiert werden können, existieren Methoden, die unabhängig von der jeweiligen Lockdown-Software sind und auf tieferliegende Schwachstellen im Gesamtsystem abzielen. Diese weniger offensichtlichen Angriffspunkte gefährden die Integrität von Online-Prüfungen und stellen sowohl Bildungseinrichtungen als auch Softwareentwickler vor neue Herausforderungen.
+
+Dieses Whitepaper identifiziert und analysiert eine dieser bisher wenig beachteten Schwachstellen und zeigt auf, weshalb klassische Sicherheitsmechanismen hier an ihre Grenzen stoßen.
+
+\section{Methodik}
+
+
+
+% Proposed Solution / Approach
+\section{Lösungsansätze}
+Explain the solution or approach in detail. Highlight benefits, features, or technical details.
+
+% Benefits and Implications
+\section{Vorteile und Folgen}
+Discuss the advantages, ROI, and broader implications of the solution.
+
+% Conclusion
+\section{Schluss}
+Summarize the key takeaways and recommendations.
+
+% References
+\newpage
+\section*{References}
+\addcontentsline{toc}{section}{References}
+Include any references, citations, or footnotes here.
+
+\end{document}
+
