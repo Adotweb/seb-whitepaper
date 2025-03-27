@@ -1,7 +1,8 @@
 # Fdb version 4
-["pdflatex"] 1743078351.88399 "doc.tex" "doc.pdf" "doc" 1743078352.54333 0
+["pdflatex"] 1743079454.51969 "doc.tex" "doc.pdf" "doc" 1743079455.18411 0
   "/etc/texmf/web2c/texmf.cnf" 1741012631.87697 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1136768653 1288 655e228510b4c2a1abe905c368440826 ""
@@ -45,12 +46,14 @@
   "/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty" 1670275497 22490 8cac309b79a4c53a4ffce4b1b07aead0 ""
   "/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty" 1698436711 48766 0b93839be28e9744a24c45075c75b2e2 ""
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
+  "/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1636152094 2900 1537cc8184ad1792082cd229ecc269f4 ""
+  "/usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb" 1636152094 138258 6525c253f16cededa14c7fd0da7f67b2 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1741012684.29889 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1741012785 8215555 0eadb1cfd200bf1031ef2c1bcf11a8fa ""
-  "doc.aux" 1743078352.48204 1107 aa29fc753366dd031c0878874a19d894 "pdflatex"
-  "doc.tex" 1743078350.91492 11971 621346d87d1a8dfb4c34c3854bb41d74 ""
-  "doc.toc" 1743078352.48304 533 fb9e49dcdd440f8a33da995d7ecea5e2 "pdflatex"
+  "doc.aux" 1743079455.11977 1357 56bba18eb0cc1ca7400357a366d34800 "pdflatex"
+  "doc.tex" 1743079453.8927 13115 3484bf6da5547c854cdd3e86207153d2 ""
+  "doc.toc" 1743079455.12077 701 0be6708681486c4c1e3a36ff354450ed "pdflatex"
   "images/schematic1.png" 1743077865.88795 71416 1a888c537d1f70399bc211665353dd63 ""
   (generated)
   "doc.aux"

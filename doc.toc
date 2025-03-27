@@ -3,7 +3,9 @@
 \contentsline {section}{\numberline {1}Einführung}{3}{}%
 \contentsline {section}{\numberline {2}Problemstellung}{3}{}%
 \contentsline {section}{\numberline {3}Methodik}{3}{}%
-\contentsline {section}{\numberline {4}Lösungsansätze}{4}{}%
-\contentsline {subsection}{\numberline {4.1}Strengere Einschränkungen}{4}{}%
-\contentsline {subsection}{\numberline {4.2}Bessere Prüfungen}{5}{}%
-\contentsline {section}{\numberline {5}Fazit und Empfehlung}{5}{}%
+\contentsline {subsection}{\numberline {3.1}Limitationen und mögliche Schwierigkeiten}{4}{}%
+\contentsline {section}{\numberline {4}Lösungsansätze}{5}{}%
+\contentsline {subsection}{\numberline {4.1}Traditionelle Methoden}{5}{}%
+\contentsline {subsection}{\numberline {4.2}Strengere Einschränkungen}{5}{}%
+\contentsline {subsection}{\numberline {4.3}Bessere Prüfungen}{5}{}%
+\contentsline {section}{\numberline {5}Fazit und Empfehlung}{6}{}%
