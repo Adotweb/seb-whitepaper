@@ -63,13 +63,13 @@
 
 % Executive Summary
 \newpage
-\section*{Zusammefassung}
+\section*{Management Summary}
 \addcontentsline{toc}{section}{Management Summary}
 Lockdown-Browser wie der Safe Exam Browser (SEB) gelten als gängige Sicherheitsmassnahme zur Betrugsprävention in digitalen Prüfungsumgebungen. Sie verhindern durch softwareseitige Sperren den Zugriff auf unerlaubte Ressourcen und Anwendungen. Dieses Whitepaper zeigt jedoch auf, dass solche Systeme durch externe hardwarebasierte Angriffe umgangen werden können.
 
 Im Rahmen der Analyse wurde demonstriert, wie die SEB-Sicherheitsmechanismen mittels einer KVM-over-IP-Lösung vollständig unterlaufen werden können. Diese Technik erlaubt es, ein Prüfungsgerät aus der Ferne zu steuern, ohne dass die Lockdown-Software die Kontrolle registriert oder unterbindet. Der Angriff funktioniert unabhängig vom Betriebssystem und ist nicht durch klassische Software-Updates behebbar.
 
-Die Erkenntnisse verdeutlichen, dass Prüfungsorganisationen bei der Absicherung digitaler Prüfungen neben softwarebasierten Lösungen auch physische und netzwerkbezogene Sicherheitsaspekte stärker berücksichtigen müssen. Ohne zusätzliche Massnahmen zur Härtung der Systemumgebung bleibt das Risiko für unerwünschte Manipulationen bestehen.
+Die Erkenntnisse verdeutlichen, dass Prüfungsorganisationen bei der Absicherung digitaler Prüfungen neben softwarebasierten Lösungen auch physische und netzwerkbezogene Sicherheitsaspekte stärker be- rücksichtigen müssen. Ohne zusätzliche Massnahmen zur Härtung der Systemumgebung bleibt das Risiko für unerwünschte Manipulationen bestehen.
 
 % Table of Contents
 \newpage
@@ -94,7 +94,7 @@ Für die Umsetzung wurde ein KVM-over-IP-System auf Basis eines Raspberry Pi Zer
 
 Der Video-Feed des Prüfungsgeräts wurde über einen Mini-DisplayPort-zu-HDMI-Adapter und eine Capture Card in einen externen Computer eingespeist. Zur Weiterleitung des Bildsignals wurde der Video-Stream mit Hilfe von \verb+mjpeg_streamer+ kodiert und auf einer webbasierten Steuerkonsole angezeigt, die sowohl das Live-Video als auch Eingabemöglichkeiten für Tastatur- und Mausbefehle bot.
 
-Für die vollständige Remote-Steuerung wurde das System zusätzlich über einen Fernwartungsdienst (z. B. Anydesk) für weitere externe Geräte zugänglich gemacht. Auf diese Weise konnte der Prüfungsrechner aus der Ferne bedient und manipuliert werden, ohne dass der SEB eine Abweichung vom vorgesehenen Lockdown-Modus detektieren konnte.
+Für die vollständige Remote-Steuerung wurde das System zusätzlich über einen Fernwartungsdienst (z. B. Anydesk) für weitere externe Geräte zugänglich gemacht. Auf diese Weise konnte der Prüfungs- rechner aus der Ferne bedient und manipuliert werden, ohne dass der SEB eine Abweichung vom vorgesehenen Lockdown-Modus detektieren konnte.
 
 Es wurde ebenfalls evaluiert, dass bei einer einfachen Nutzung des „Zwischengeräts“ (externer Computer) im direkten Umfeld des Prüfungsgeräts die physische Manipulation (z. B. zusätzliche Kabel) leicht auffallen könnte. Daher zielt der vollständige Angriff darauf ab, die Steuerung vollständig auf ein externes Endgerät zu verlagern. 
 
@@ -110,7 +110,7 @@ Es wurde ebenfalls evaluiert, dass bei einer einfachen Nutzung des „Zwischenge
 % Proposed Solution / Approach
 \section{Lösungsansätze}
 
-Die Lösungsansätze lassen sich in zwei Kategorien einordnen: 
+Allem voran ist diese Art des Betrugs sehr aufwendig, und wohl kaum grossflächig anwendbar, allerdings dürfen solche Möglichkeiten nicht unterschätzt werden. Die Lösungsansätze die uns zur Verfügung stehen, lassen sich in zwei Kategorien einordnen: 
 
 \begin{enumerate}
 \item Strengere Einschränkungen während Prüfungen
@@ -121,7 +121,7 @@ Die Lösungsansätze lassen sich in zwei Kategorien einordnen:
 
 Technische Massnahmen zur Verschärfung der Prüfungsumgebung erscheinen auf den ersten Blick als die naheliegendste Option, sind jedoch langfristig nur eingeschränkt wirksam. Aufgrund der hardwarebasierten Natur der hier vorgestellten Angriffsmethode greifen klassische Lockdown-Lösungen – einschliesslich alternativer Browser oder Sperrsoftware – nicht mehr ausreichend.
 
-Ein häufig empfohlener Ansatz, der auch von den Entwicklern des SEB betont wird, ist eine intensivere Überwachung der Prüflinge während der Prüfung. Lehrkräfte verlassen sich häufig zu sehr auf die Lockdown-Software und vernachlässigen die physische oder digitale Beaufsichtigung. Eine verstärkte Aufsicht – etwa durch zusätzliche Aufsichtsführende oder KI-gestützte Überwachungssysteme – könnte den Handlungsspielraum der Prüflinge einschränken. Dennoch sind auch solche Massnahmen nicht unüberwindbar: Die von uns beschriebene Methode ermöglicht es beispielsweise, Steuerbefehle über ein zweites Gerät mithilfe von Drittpersonen unbemerkt auszuführen, ohne den SEB zu verlassen.
+Ein häufig empfohlener Ansatz, der auch von den Entwicklern des SEB betont wird, ist eine intensivere Überwachung der Prüflinge während der Prüfung. Lehrkräfte verlassen sich häufig zu sehr auf die Lockdown-Software und vernachlässigen die physische oder digitale Beaufsichtigung. Eine verstärkte Aufsicht – etwa durch zusätzliche Aufsichtsführende oder KI-gestützte Überwachungssysteme – könnte den Handlungsspielraum der Prüflinge einschränken. Dennoch sind auch solche Massnahmen nicht un- überwindbar: Die von uns beschriebene Methode ermöglicht es beispielsweise, Steuerbefehle über ein zweites Gerät mithilfe von Drittpersonen unbemerkt auszuführen, ohne den SEB zu verlassen.
 
 Eine weitere technische Massnahme wäre die Bereitstellung dedizierter Prüfungsgeräte, die ausschliesslich für den Einsatz in Klausuren vorgesehen sind und regelmässig kontrolliert werden. Aufgrund der damit verbundenen Kosten dürfte dies jedoch für viele Bildungseinrichtungen kaum umsetzbar sein.
 
